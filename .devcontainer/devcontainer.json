@@ -1,0 +1,13 @@
+{
+  "image": "mcr.microsoft.com/quantum/samples:latest",
+  "extensions": [
+    "quantum.quantum-devkit-vscode",
+    "ms-vscode.csharp",
+    "editorconfig.editorconfig",
+    "ms-python.python"
+  ],
+  "runArgs": [
+    "-e",
+    "IQSHARP_HOSTING_ENV=SAMPLES_DEVCONTAINER"
+  ]
+}
